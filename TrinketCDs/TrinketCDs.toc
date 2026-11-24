@@ -1,0 +1,20 @@
+## Interface: 30300
+## Title: |cffffffffTrinketCDs|r|cff00ff00 Enhanced|r
+## Version: 3.0.0
+## SavedVariables: TrinketCDsProfile, TrinketCDsProfiles
+## SavedVariablesPerCharacter: TrinketCDsProfileChar
+## Notes: Trinket and enchant procs for you, your party and arena enemies. Menu: /tcd
+## Notes-ruRU: Отслеживает баффы предметов и энчантов. Drag & Drop + Профили.
+## OptionalDeps: OmniCC, LibSharedMedia-3.0
+
+## X-Category: Combat
+## X-Website: https://github.com/suprepupre/TrinketCDs
+
+Libs\LibStub\LibStub.lua
+Libs\PoolCompat.lua
+Libs\LibCustomGlow-1.0\LibCustomGlow-1.0.lua
+
+TrinketCDsDB.lua
+TrinketCDs.lua
+TrinketCDsUnits.lua
+TrinketCDsOptions.lua
